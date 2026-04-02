@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-mode {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+nav {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.nav-item {
+    color: #e0e0e0;
+    padding: 0 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    background-image: url('img/miangaming\ news\ .jpg');
+    /* Specify the path to your image */
+    background-size: cover;
+    /* Cover the entire element with the background image */
+    background-position: center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* Do not repeat the background image */
+    /* Additional styles */
+    padding: 50px;
+    /* Add padding to the main section if needed */
+    color: white;
+    /* Text color for better visibility */
+}
+main h1 {
+    color: #e0e0e0;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 1000px;
+}
+
+.news-card {
+    background-color: #3a3a3a;
+    color: #e0e0e0;
+    flex-basis: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.news-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-card h2 {
+    color: #e0e0e0
+}
